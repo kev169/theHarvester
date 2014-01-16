@@ -238,7 +238,7 @@ def start(argv):
 		for user in people:
 			user = user.replace("+", " ")
 			print user
-	print all_emails
+	#print all_emails
 	#Results############################################################
 	print "\n[+] Emails found:"
 	print "------------------"
