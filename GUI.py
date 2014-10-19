@@ -8,9 +8,9 @@ class WindowHandler:
 
     def run(self):
         self.builder = gtk.Builder()
-        self.builder.add_from_file("Design/Layout/harvester-gui.glade")
+        self.builder.add_from_file("Design/Layout/harvester-gui mk 2.glade")
         self.builder.connect_signals(self)
-        self.window = self.builder.get_object("main")
+        self.window = self.builder.get_object("window1")
         self.cell = gtk.CellRendererText()
         name_store = gtk.ListStore(int,str)
         for count, item in enumerate(self.data):
