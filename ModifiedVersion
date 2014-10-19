@@ -1,3 +1,7 @@
 This is my modified version well at least it will be, im changing it so
 that all of the scans will run when a specific argument is passed, then i
 also plan on integrating facebook search and twitter.
+
+
+Still want to add twitter search, but need to narrow down results. 
+Adding GUIbranch to the repo where we'll have gui development in it.
